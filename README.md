@@ -13,3 +13,6 @@ Alternate method is to use Windows subsystem linux ( WSL ) and trigger the build
   3. Run the windows batch file -> launch_build.bat .
 
 ## The above environment will compile and build it under "build" folder which will pick all the subfolder under the current directory and generate all the object and dependency files  and will also generate the final <>.elf and <>.srec files post a successful build 
+
+
+### NOTE -> The same logic can be used to generate / build for other platform series as well , just need to make sure all the startup code / linker files are used appropriately 
